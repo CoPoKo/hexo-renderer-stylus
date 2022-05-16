@@ -1,10 +1,10 @@
 # hexo-renderer-stylus
 
 [![Build Status](https://travis-ci.org/hexojs/hexo-renderer-stylus.svg?branch=master)](https://travis-ci.org/hexojs/hexo-renderer-stylus)
-[![NPM version](https://badge.fury.io/js/hexo-renderer-stylus.svg)](https://www.npmjs.com/package/hexo-renderer-stylus)
+[![NPM version](https://badge.fury.io/js/@copoko/hexo-renderer-stylus.svg)](https://www.npmjs.com/package/@copoko/hexo-renderer-stylus)
 [![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-renderer-stylus.svg)](https://coveralls.io/r/hexojs/hexo-renderer-stylus?branch=master)
 
-Add support for [Stylus] with [nib] and other plugins.
+Add support for [Stylus] with [@copoko/nib] and other plugins.
 
 ## Install
 
@@ -13,7 +13,7 @@ Prerequisites:
 - Hexo 2: 0.1.x
 
 ``` bash
-$ npm install hexo-renderer-stylus --save
+$ npm install @copoko/hexo-renderer-stylus --save
 ```
 
 ## Options
@@ -28,7 +28,7 @@ stylus:
     inline: true
     sourceRoot: ''
     basePath: .
-  plugins: 'nib'
+  plugins: '@copoko/nib'
 ```
 
 - **compress** - Compress generated CSS (default: `false`)
@@ -37,7 +37,7 @@ stylus:
   - **inline** - Inlines the sourcemap with full source text in base64 format (default: `false`)
   - **sourceRoot** - `sourceRoot` property of the generated sourcemap
   - **basePath** - Base path from which sourcemap and all sources are relative (default: `.`)
-- **plugins** - Stylus plugin(s) (default: `nib`)
+- **plugins** - Stylus plugin(s) (default: `@copoko/nib`)
 
 ## Setting Stylus variables
 
@@ -71,7 +71,7 @@ theme_config:
 ```
 
 [Stylus]: http://stylus-lang.com/
-[nib]: http://stylus.github.io/nib/
+[@copoko/nib]: https://github.com/CoPoKo/nib
 
 ## Extensibility
 
