@@ -1,6 +1,6 @@
 {
-  "name": "hexo-renderer-stylus",
-  "version": "2.0.1",
+  "name": "@copoko/hexo-renderer-stylus",
+  "version": "0.0.0",
   "description": "Stylus renderer plugin for Hexo",
   "main": "index",
   "scripts": {
@@ -15,7 +15,7 @@
     "lib",
     "index.js"
   ],
-  "repository": "hexojs/hexo-renderer-stylus",
+  "repository": "CoPoKo/hexo-renderer-stylus",
   "keywords": [
     "hexo",
     "stylus",
@@ -25,18 +25,18 @@
     "styl",
     "renderer"
   ],
-  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "author": "CoPoKo",
   "license": "MIT",
   "dependencies": {
-    "nib": "^1.1.2",
-    "stylus": "^0.57.0"
+    "@copoko/nib": "*",
+    "stylus": "*"
   },
   "devDependencies": {
     "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
     "eslint": "^8.5.0",
     "eslint-config-hexo": "^5.0.0",
-    "hexo": "^6.0.0",
+    "hexo": "*",
     "mocha": "^9.1.3",
     "nyc": "^15.1.0"
   },
